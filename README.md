@@ -1,5 +1,5 @@
 # Material 3 Navigation Drawer In Sketchware Pro
-[![Click to watch the video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[![Click to watch the video](https://raw.githubusercontent.com/FasterSoftwareDeveloper/Material-3-Navigation-Drawer-In-Sketchware-Pro/refs/heads/main/thumbnail.png)](https://youtu.be/JR2RWuAJZ7E)
 ---
 
 ## 🧭 Comprehensive Navigation Drawer Java Attributes Guide
