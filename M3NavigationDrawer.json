@@ -1,0 +1,578 @@
+[
+  {
+    "code": "%1$s.inflateHeaderView(R.layout.%2$s);",
+    "imports": "com.google.android.material.navigation.NavigationView",
+    "color": "#FF5722",
+    "name": "FM3ND inflateHeaderView",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND inflateHeaderView - NavigationView %m.view (HeaderLayout) R.layout.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.inflateMenu(R.menu.%2$s);",
+    "imports": "com.google.android.material.navigation.NavigationView",
+    "color": "#FF5722",
+    "name": "FM3ND inflateMenu",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND inflateMenu - NavigationView %m.view R.menu.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.setNavigationItemSelectedListener(%2$s -\u003e {\n%3$s\nreturn true; \n});",
+    "imports": "com.google.android.material.navigation.NavigationView",
+    "color": "#FF5722",
+    "name": "FM3ND onNavigationItemSelected",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND onNavigationItemSelected - NavigationView %m.view MenuItem Id %s.inputOnly"
+  },
+  {
+    "code": "%1$s.getItemId()",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND getItemId",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND getItemId - Menu Id %s.inputOnly"
+  },
+  {
+    "code": "R.id.%1$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND R.id helper",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND R.id helper - R.id.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.setChecked(%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setChecked",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setChecked - Menu Id %s.inputOnly true/false %b"
+  },
+  {
+    "code": "%1$s.setCheckedItem(R.id.%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setCheckedItem",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setCheckedItem - NavigationView Id %m.view R.id. %s.inputOnly"
+  },
+  {
+    "code": "%1$s \u003d\u003d %2$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND \u003d\u003d (number)",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND %d \u003d\u003d %d"
+  },
+  {
+    "code": "%1$s.getGroupId()",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND getGroupId",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND getGroupId - Menu Id %s.inputOnly"
+  },
+  {
+    "code": "if (%1$s) {\n%2$s\n}",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND if (number)",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND if %d"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "For Drawer",
+    "typeName": "",
+    "palette": "15",
+    "type": "h",
+    "spec": "For Drawer"
+  },
+  {
+    "code": "%1$s.isDrawerOpen(%2$s)",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND isDrawerOpen",
+    "typeName": "",
+    "palette": "15",
+    "type": "b",
+    "spec": "FM3ND isDrawerOpen - DrawerLayout %m.view GravityCompat %m.gravity"
+  },
+  {
+    "code": "%1$s.openDrawer(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND openDrawer",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND openDrawer - DrawerLayout %m.view GravityCompat %m.gravity"
+  },
+  {
+    "code": "%1$s.closeDrawer(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND closeDrawer",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND closeDrawer - DrawerLayout %m.view GravityCompat %m.gravity"
+  },
+  {
+    "code": "GravityCompat.START",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND GravityCompat.START",
+    "typeName": "gravity",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND GravityCompat.START"
+  },
+  {
+    "code": "GravityCompat.END",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND GravityCompat.END",
+    "typeName": "gravity",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND GravityCompat.END"
+  },
+  {
+    "code": "%1$s.setDrawerLockMode(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setDrawerLockMode",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setDrawerLockMode - DrawerLayout %m.view DrawerLockMode %m.DrawerLockMode"
+  },
+  {
+    "code": "DrawerLayout.LOCK_MODE_LOCKED_CLOSED",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND LOCK_MODE_LOCKED_CLOSED",
+    "typeName": "DrawerLockMode",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND LOCK_MODE_LOCKED_CLOSED"
+  },
+  {
+    "code": "DrawerLayout.LOCK_MODE_UNLOCKED",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND LOCK_MODE_UNLOCKED",
+    "typeName": "DrawerLockMode",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND LOCK_MODE_UNLOCKED"
+  },
+  {
+    "code": "%1$s.addDrawerListener(new DrawerLayout.DrawerListener() {\n%2$s\n});",
+    "color": "#FF5722",
+    "name": "FM3ND Drawer Listener",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND Drawer Listener - DrawerLayout %m.view"
+  },
+  {
+    "code": "@Override\npublic void onDrawerSlide(@NonNull View drawerView, float slideOffset) {\n%1$s\n}",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerSlide",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND onDrawerSlide"
+  },
+  {
+    "code": "@Override\npublic void onDrawerOpened(@NonNull View drawerView) {\n%1$s\n}",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerOpened",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND onDrawerOpened"
+  },
+  {
+    "code": "@Override\npublic void onDrawerClosed(@NonNull View drawerView) {\n%1$s\n}",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerClosed",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND onDrawerClosed"
+  },
+  {
+    "code": "@Override\npublic void onDrawerStateChanged(int newState) {\n%1$s\n}",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerStateChanged",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND onDrawerStateChanged"
+  },
+  {
+    "code": "newState",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND newState (For onDrawerStateChanged",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND newState (For onDrawerStateChanged)"
+  },
+  {
+    "code": "DrawerLayout.STATE_DRAGGING",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerStateChanged state DRAGGIN",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND onDrawerStateChanged state DRAGGING"
+  },
+  {
+    "code": "DrawerLayout.STATE_IDLE",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerStateChanged state IDLE",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND onDrawerStateChanged state IDLE"
+  },
+  {
+    "code": "DrawerLayout.STATE_SETTLING",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND onDrawerStateChanged state SETTING",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND onDrawerStateChanged state SETTING"
+  },
+  {
+    "code": "slideOffset",
+    "color": "#FF5722",
+    "name": "FM3ND slideOffset (For onDrawerSlide)",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND slideOffset (For onDrawerSlide)"
+  },
+  {
+    "code": "drawerView.getId()",
+    "color": "#FF5722",
+    "name": "FM3ND drawerView.getId",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND drawerView.getId"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "For Customization",
+    "typeName": "",
+    "palette": "15",
+    "type": "h",
+    "spec": "For Customization"
+  },
+  {
+    "code": "%1$s.setItemBackgroundResource(R.drawable.%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setItemBackgroundResource",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setItemBackgroundResource - NavigationView %m.view R.drawable.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.setItemMaxLines(%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setItemMaxLines",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setItemMaxLines - NavigationView %m.view ItemMaxLines %d"
+  },
+  {
+    "code": "%1$s.setItemTextAppearanceActiveBoldEnabled(%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setItemTextAppearanceActiveBoldEna",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setItemTextAppearanceActiveBoldEnabled - NavigationView %m.view true/false %b"
+  },
+  {
+    "code": "%1$s.setItemTextAppearance(R.style.%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setItemTextAppearance",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setItemTextAppearance - NavigationView %m.view R.style.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.setScrimColor(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setScrimColor",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setScrimColor - NavigatioView %m.view color %m.color "
+  },
+  {
+    "code": "%1$s.setDividerInsetStart(%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND setDividerInsetStart",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setDividerInsetStart - NavigationView %m.view InsetPx %d"
+  },
+  {
+    "code": "%1$s.setDividerInsetEnd(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setDividerInsetEnd",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setDividerInsetEnd - NavigationView %m.view InsetPx %d"
+  },
+  {
+    "code": "%1$s.setSubheaderInsetStart(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setSubheaderInsetStart",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setSubheaderInsetStart - NavigationView %m.view InsetPx %d"
+  },
+  {
+    "code": "%1$s.setSubheaderInsetEnd(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setSubheaderInsetEnd",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setSubheaderInsetEnd - NavigationView %m.view InsetPx %d"
+  },
+  {
+    "code": "%1$s.setTopInsetScrimEnabled(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setTopInsetScrimEnabled",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setTopInsetScrimEnabled - NavigationView %m.view true/false %b"
+  },
+  {
+    "code": "%1$s.setBottomInsetScrimEnabled(%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND setBottomInsetScrimEnabled",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND setBottomInsetScrimEnabled - NavigationView %m.view true/false %b"
+  },
+  {
+    "code": "",
+    "imports": "",
+    "color": "#FF000000",
+    "name": "For HeaderView",
+    "typeName": "",
+    "palette": "15",
+    "type": "h",
+    "spec": "For HeaderView"
+  },
+  {
+    "code": "%1$s %4$s \u003d (%1$s) %2$s.getHeaderView(%3$s).findViewById(R.id.%5$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Get Header View from NavigationVie",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND View %m.typeview NavigationView %m.view getHeaderView by index %d View id %s.inputOnly FindViewById %s.inputOnly"
+  },
+  {
+    "code": "%1$s.getHeaderView(%2$s)",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND getHeaderView",
+    "typeName": "",
+    "palette": "15",
+    "type": "d",
+    "spec": "FM3ND getHeaderView - NavigationView %m.view Index %d"
+  },
+  {
+    "code": "%1$s.removeHeaderView(%2$s);",
+    "color": "#FF5722",
+    "name": "FM3ND removeHeaderView",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND removeHeaderView - NavigationView %m.view HeaderViewId %d"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "For badgeLayout (ActionView)",
+    "typeName": "",
+    "palette": "15",
+    "type": "h",
+    "spec": "For badgeLayout (ActionView)"
+  },
+  {
+    "code": "%1$s.getMenu()",
+    "color": "#FF5722",
+    "name": "FM3ND getMenu",
+    "typeName": "getMenu",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND getMenu - NavigationView %m.view"
+  },
+  {
+    "code": "MenuItem %1$s \u003d %2$s.findItem(R.id.%3$s);\n%4$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND get menu to add badge",
+    "typeName": "",
+    "palette": "15",
+    "type": "c",
+    "spec": "FM3ND get menu to add badge - MenuItem %s.inputOnly (use getMenu) %m.getMenu FindItem R.id.%s.inputOnly"
+  },
+  {
+    "code": "%1$s.setActionView(R.layout.%2$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Add Badges (ActionView)",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND Add Badges (ActionView) - MenuItem %s.inputOnly R.layout.%m.customViews"
+  },
+  {
+    "code": "%1$s %3$s \u003d (%1$s) %2$s.getActionView().findViewById(R.id.%4$s);",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Get Action View from NavigationVie",
+    "typeName": "",
+    "palette": "15",
+    "type": " ",
+    "spec": "FM3ND (For Badge) View %m.typeview MenuItem id %s.inputOnly View id %s.inputOnly FindViewById %s.inputOnly"
+  },
+  {
+    "code": "",
+    "imports": "",
+    "color": "#FF000000",
+    "name": "For Type Views",
+    "typeName": "",
+    "palette": "15",
+    "type": "h",
+    "spec": "For Type Views"
+  },
+  {
+    "code": "%1$s",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (TextView)",
+    "typeName": "TextView",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (TextView) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (EditText)",
+    "typeName": "EditText",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (EditText) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (ImageView)",
+    "typeName": "ImageView",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (ImageView) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (CardView)",
+    "typeName": "CardView",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (CardView) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (View)",
+    "typeName": "View",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (View) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (CheckBox)",
+    "typeName": "CheckBox",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (CheckBox) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (ListView)",
+    "typeName": "ListView",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (ListView) %s.inputOnly"
+  },
+  {
+    "code": "%1$s",
+    "imports": "",
+    "color": "#FF5722",
+    "name": "FM3ND Type Name (RecycleView)",
+    "typeName": "RecycleView",
+    "palette": "15",
+    "type": "v",
+    "spec": "FM3ND Type Name (RecycleView) %s.inputOnly"
+  }
+]
